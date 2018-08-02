@@ -6,7 +6,7 @@ File Format
 </title>
   <link rel="shortcut icon" href="/img/favicon.png"  type="image/png">
   <link rel="stylesheet" type="text/css" href="/css/buckets.css" />
-  <link rel="stylesheet" type="text/css" href="/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="/css/docs-common.css" />
 </head>
 <body>
   <div class="buckets-nav">
@@ -96,11 +96,11 @@ File Format
 
 <p>If you still have questions after reading this, feel free to chat with me.</p>
 
-<h2 id="concurrency">Concurrency</h2>
+<h2 id="concurrency">Concurrency<a class="anchor-link" href="#concurrency">&para;</a></h2>
 
 <p>It&rsquo;s not a good idea to do data-manipulating operations (<code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, etc&hellip;) on the same budget file from more than one process at a time.  So before you manipulate data outside of Buckets, close the budget file inside Buckets.</p>
 
-<h2 id="amounts">Amounts</h2>
+<h2 id="amounts">Amounts<a class="anchor-link" href="#amounts">&para;</a></h2>
 
 <p>Amounts are stored as integers, not floats.  For USD (and most other currencies), this means that amounts are integer cents.</p>
 
@@ -111,7 +111,7 @@ File Format
 sqlite&gt; SELECT printf(&#34;%.2f&#34;, balance/100.0) AS balance FROM account WHERE id=1;
 6500.00</code></pre></div>
 
-<h2 id="inserting-transactions">Inserting transactions</h2>
+<h2 id="inserting-transactions">Inserting transactions<a class="anchor-link" href="#inserting-transactions">&para;</a></h2>
 
 <p>Insert bank/account transactions into the <code>account_transaction</code> table.  Be aware of the following:</p>
 
