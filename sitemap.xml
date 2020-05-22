@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://docs.budgetwithbuckets.com/app/general/</loc>
+    <lastmod>2020-05-21T00:00:00-05:00</lastmod>
+  </url>
   
   <url>
     <loc>https://docs.budgetwithbuckets.com/app/transactions/</loc>
@@ -10,11 +15,6 @@
   <url>
     <loc>https://docs.budgetwithbuckets.com/app/buckets/</loc>
     <lastmod>2018-01-20T22:41:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://docs.budgetwithbuckets.com/app/general/</loc>
-    <lastmod>2018-01-20T22:29:35-07:00</lastmod>
   </url>
   
   <url>
@@ -30,6 +30,12 @@
   <url>
     <loc>https://docs.budgetwithbuckets.com/app/debt/</loc>
     <lastmod>2018-01-20T15:35:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.budgetwithbuckets.com/</loc>
+    <lastmod>2018-01-09T11:36:13-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -58,18 +64,11 @@
   </url>
   
   <url>
-    <loc>https://docs.budgetwithbuckets.com/</loc>
-    <lastmod>2018-01-24T13:08:44-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://docs.budgetwithbuckets.com/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://docs.budgetwithbuckets.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
