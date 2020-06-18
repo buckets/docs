@@ -94,7 +94,7 @@ Debt
 <li>The account&rsquo;s negative balance is removed from your total rain.</li>
 <li>A debt payment bucket is automatically created.</li>
 </ol>
-<h3 id="1-rain-without-debt">1. Rain without Debt<a class="anchor-link" href="#1-rain-without-debt">&para;</a></h3>
+<h3 id="rain-without-debt-explanation">Rain without debt explanation<a class="anchor-link" href="#rain-without-debt-explanation">&para;</a></h3>
 <p>Suppose you have the following account balances:</p>
 <table>
 <thead>
@@ -172,7 +172,7 @@ Debt
 </tr>
 </tbody>
 </table>
-<h3 id="2-debt-payment-bucket">2. Debt Payment Bucket<a class="anchor-link" href="#2-debt-payment-bucket">&para;</a></h3>
+<h3 id="debt-payment-bucket">Debt Payment Bucket<a class="anchor-link" href="#debt-payment-bucket">&para;</a></h3>
 <p>The debt payment bucket will mirror every transaction into your account.  For instance:</p>
 <ul>
 <li>if you deposit $50 into your debt account, the payment bucket balance will decrease by $50 indicating that your pending payment has gone down.</li>
@@ -180,6 +180,13 @@ Debt
 </ul>
 <p>You are also welcome to put additional funds into the debt payment bucket as you have them.</p>
 <p><warning>Because of complicated deadlines associated with credit card billing, don&rsquo;t assume that the amount in the payment bucket is the exact amount you should pay. See the next section for help with this.</warning></p>
+<h3 id="how-to-categorize-debt-transactions">How to categorize debt transactions<a class="anchor-link" href="#how-to-categorize-debt-transactions">&para;</a></h3>
+<p><img src="../debt_img/debt_categories.png" alt="How to categorize debt transactions"></p>
+<ul>
+<li><strong>Expenses</strong>: Categorize credit card expenses as the bucket the expense was for (e.g. food expenses should be categorized as <em>Food</em>)</li>
+<li><strong>Payments</strong>: Categorize credit card payments as transfers (one transfer <em>from</em> an account and a matching transactions <em>to</em> the credit card account).  Transactions should match your bank statements.</li>
+<li><strong>Interest</strong>: Categorize credit card interest as <em>Debt</em>.</li>
+</ul>
 <h2 id="syncing-the-payment-balance-with-the-billing-cycle">Syncing the payment balance with the billing cycle<a class="anchor-link" href="#syncing-the-payment-balance-with-the-billing-cycle">&para;</a></h2>
 <p>Credit cards can have very complicated billing cycles.  And even the simplest cycles can create confusion.  In the simplest case, you&rsquo;ll have one billing cycle&rsquo;s payment due just as the next billing cycle ends, as shown here:</p>
 <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
